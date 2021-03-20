@@ -1,0 +1,7 @@
+a{
+	transition: font-size 1s, color 0.5s;
+	cursor: pointer;
+}
+a:hover{
+	text-shadow:2px 2px 40px #BDB3B3;
+}
