@@ -1,4 +1,4 @@
-<div class="page-name">Разработки</div>
+п»ї<div class="page-name">Р Р°Р·СЂР°Р±РѕС‚РєРё</div>
 <table>
 	<tr>
 		<td style='text-align: center'><div class="slot" id="slotck"><div class="po" id='ck'></div></div><div class="slot" id="slotsorman"><div class="po" id='sorman'></div></div><div class="slot" id="slotdev"><div class="po" id='dev'></div></div><div class="slot" id="slotyour"><div class="po" id='your'></div></div></td>

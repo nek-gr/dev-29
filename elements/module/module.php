@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 global $get_mod;
 $modir = "modules/";

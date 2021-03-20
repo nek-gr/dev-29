@@ -1,4 +1,4 @@
-<?php
+п»ї<?php
 $id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_STRING);
 
 switch ($id) {
@@ -7,32 +7,32 @@ switch ($id) {
 		<div class="treesug">
 			<div id="onepage">
 				<table>
-					<tr><th colspan="2">Одностраничник</th></tr>
+					<tr><th colspan="2">РћРґРЅРѕСЃС‚СЂР°РЅРёС‡РЅРёРє</th></tr>
 					<tr><td colspan="2" class="demimg" id="imonpa"></td></tr>
-					<tr><td>Цена</td><td>1500р</td></tr>
-					<tr><td>Эксклюзивный дизайн</td><td>+1000р</td></tr>
-					<tr><td>Хостинг</td><td>+1000р</td></tr>
-					<tr><td colspan="2"><input type="button" value="Заказать" class="button" onclick="onpage()"></td></tr>
+					<tr><td>Р¦РµРЅР°</td><td>1500СЂ</td></tr>
+					<tr><td>Р­РєСЃРєР»СЋР·РёРІРЅС‹Р№ РґРёР·Р°Р№РЅ</td><td>+1000СЂ</td></tr>
+					<tr><td>РҐРѕСЃС‚РёРЅРі</td><td>+1000СЂ</td></tr>
+					<tr><td colspan="2"><input type="button" value="Р—Р°РєР°Р·Р°С‚СЊ" class="button" onclick="onpage()"></td></tr>
 				</table>
 			</div>
 			<div id="visitka">
 				<table>
-					<tr><th colspan="2">Визитка</th></tr>
+					<tr><th colspan="2">Р’РёР·РёС‚РєР°</th></tr>
 					<tr><td colspan="2" class="demimg" id="imvisi"></td></tr>
-					<tr><td>Цена</td><td>от 5500р</td></tr>
-					<tr><td>Эксклюзивный дизайн</td><td>+2000р</td></tr>
-					<tr><td>Хостинг</td><td>+1000р</td></tr>
-					<tr><td colspan="2"><input type="button" value="Заказать" class="button" onclick="visit()"></td></tr>
+					<tr><td>Р¦РµРЅР°</td><td>РѕС‚ 5500СЂ</td></tr>
+					<tr><td>Р­РєСЃРєР»СЋР·РёРІРЅС‹Р№ РґРёР·Р°Р№РЅ</td><td>+2000СЂ</td></tr>
+					<tr><td>РҐРѕСЃС‚РёРЅРі</td><td>+1000СЂ</td></tr>
+					<tr><td colspan="2"><input type="button" value="Р—Р°РєР°Р·Р°С‚СЊ" class="button" onclick="visit()"></td></tr>
 				</table>
 			</div>
 			<div id="intershop">
 				<table>
-					<tr><th colspan="2">Интернет-магазин</th></tr>
+					<tr><th colspan="2">РРЅС‚РµСЂРЅРµС‚-РјР°РіР°Р·РёРЅ</th></tr>
 					<tr><td colspan="2" class="demimg" id="imintershop"></td></tr>
-					<tr><td>Цена</td><td>от 30000р</td></tr>
-					<tr><td>Эксклюзивный дизайн</td><td>+10000р</td></tr>
-					<tr><td>Хостинг</td><td>+1000р</td></tr>
-					<tr><td colspan="2"><input type="button" value="Заказать" class="button" onclick="inter()"></td></tr>
+					<tr><td>Р¦РµРЅР°</td><td>РѕС‚ 30000СЂ</td></tr>
+					<tr><td>Р­РєСЃРєР»СЋР·РёРІРЅС‹Р№ РґРёР·Р°Р№РЅ</td><td>+10000СЂ</td></tr>
+					<tr><td>РҐРѕСЃС‚РёРЅРі</td><td>+1000СЂ</td></tr>
+					<tr><td colspan="2"><input type="button" value="Р—Р°РєР°Р·Р°С‚СЊ" class="button" onclick="inter()"></td></tr>
 				</table>
 			</div>
 		</div>
@@ -43,14 +43,14 @@ switch ($id) {
 		<div class="treesug">
 			<div id="onlypo">
 				<table>
-					<tr><th colspan="3">Прикладное ПО</th></tr>
+					<tr><th colspan="3">РџСЂРёРєР»Р°РґРЅРѕРµ РџРћ</th></tr>
 					<tr><td colspan="3" class="demimg" id="impo"></td></tr>
-					<tr><td class="poimg" id="ruble"></td><td id="postimg">Цена</td><td id="void">от 5000р</td></tr>
-					<tr><td class="poimg" id="mandb"></td><td id="postimg">Управление базой</td><td id="void">от +10000р</td></tr>
-					<tr><td class="poimg" id="users"></td><td id="postimg">Учётный записи</td><td id="void">+5000р</td></tr>
-					<tr><td class="poimg" id="reports"></td><td id="postimg">Отчёты</td><td id="void">+3000р за каждый</td></tr>
-					<tr><td class="poimg" id="hosting"></td><td id="postimg">Хостинг</td><td id="void">+3000р</td></tr>
-					<tr><td colspan="3"><input type="button" value="Заказать" class="button" onclick="ppo()"></td></tr>
+					<tr><td class="poimg" id="ruble"></td><td id="postimg">Р¦РµРЅР°</td><td id="void">РѕС‚ 5000СЂ</td></tr>
+					<tr><td class="poimg" id="mandb"></td><td id="postimg">РЈРїСЂР°РІР»РµРЅРёРµ Р±Р°Р·РѕР№</td><td id="void">РѕС‚ +10000СЂ</td></tr>
+					<tr><td class="poimg" id="users"></td><td id="postimg">РЈС‡С‘С‚РЅС‹Р№ Р·Р°РїРёСЃРё</td><td id="void">+5000СЂ</td></tr>
+					<tr><td class="poimg" id="reports"></td><td id="postimg">РћС‚С‡С‘С‚С‹</td><td id="void">+3000СЂ Р·Р° РєР°Р¶РґС‹Р№</td></tr>
+					<tr><td class="poimg" id="hosting"></td><td id="postimg">РҐРѕСЃС‚РёРЅРі</td><td id="void">+3000СЂ</td></tr>
+					<tr><td colspan="3"><input type="button" value="Р—Р°РєР°Р·Р°С‚СЊ" class="button" onclick="ppo()"></td></tr>
 				</table>
 			</div>
 		</div>

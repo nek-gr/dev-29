@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_STRING);
 
 switch ($id) {

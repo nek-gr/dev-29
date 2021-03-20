@@ -1,28 +1,28 @@
-<div class="trueoffer">
-	<div class="white">Добавьте в бизнес программирование!</div>
-	<div>Оставьте заявку, сделайте первый шаг к инновациям</div>
+п»ї<div class="trueoffer">
+	<div class="white">Р”РѕР±Р°РІСЊС‚Рµ РІ Р±РёР·РЅРµСЃ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ!</div>
+	<div>РћСЃС‚Р°РІСЊС‚Рµ Р·Р°СЏРІРєСѓ, СЃРґРµР»Р°Р№С‚Рµ РїРµСЂРІС‹Р№ С€Р°Рі Рє РёРЅРЅРѕРІР°С†РёСЏРј</div>
 	<div id="right"><form action="">
 			<table>
-				<tr><td>Имя:</td><td> <input type="text" required id="name"></td></tr>
-				<tr><td>Телефон:</td><td> <input type="text" required id="number" maxlength="11"></td></tr>
-				<tr><td>Сообщение:</td><td> <textarea id="text"></textarea></td></tr>
-				<tr><td></td><td><input type="submit" value="Отправить" class="button"></td></tr>
+				<tr><td>РРјСЏ:</td><td> <input type="text" required id="name"></td></tr>
+				<tr><td>РўРµР»РµС„РѕРЅ:</td><td> <input type="text" required id="number" maxlength="11"></td></tr>
+				<tr><td>РЎРѕРѕР±С‰РµРЅРёРµ:</td><td> <textarea id="text"></textarea></td></tr>
+				<tr><td></td><td><input type="submit" value="РћС‚РїСЂР°РІРёС‚СЊ" class="button"></td></tr>
 			</table>
-			<div>Мы свяжемся с вами в течение суток.</div>
+			<div>РњС‹ СЃРІСЏР¶РµРјСЃСЏ СЃ РІР°РјРё РІ С‚РµС‡РµРЅРёРµ СЃСѓС‚РѕРє.</div>
 		</form></div>
 </div>
 <script>
 	$("#number").keydown(function (event) {
-		// Разрешаем: backspace, delete, tab и escape
+		// Р Р°Р·СЂРµС€Р°РµРј: backspace, delete, tab Рё escape
 		if (event.keyCode == 46 || event.keyCode == 8 || event.keyCode == 9 || event.keyCode == 27 ||
-				// Разрешаем: Ctrl+A
+				// Р Р°Р·СЂРµС€Р°РµРј: Ctrl+A
 						(event.keyCode == 65 && event.ctrlKey === true) ||
-						// Разрешаем: home, end, влево, вправо
+						// Р Р°Р·СЂРµС€Р°РµРј: home, end, РІР»РµРІРѕ, РІРїСЂР°РІРѕ
 								(event.keyCode >= 35 && event.keyCode <= 39)) {
-					// Ничего не делаем
+					// РќРёС‡РµРіРѕ РЅРµ РґРµР»Р°РµРј
 					return;
 				} else {
-					// Обеждаемся, что это цифра, и останавливаем событие keypress
+					// РћР±РµР¶РґР°РµРјСЃСЏ, С‡С‚Рѕ СЌС‚Рѕ С†РёС„СЂР°, Рё РѕСЃС‚Р°РЅР°РІР»РёРІР°РµРј СЃРѕР±С‹С‚РёРµ keypress
 					if ((event.keyCode < 48 || event.keyCode > 57) && (event.keyCode < 96 || event.keyCode > 105)) {
 						event.preventDefault();
 					}

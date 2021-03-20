@@ -1,2 +1,2 @@
-<div class="page-name"><a class="disabled" id="who">Кто мы</a> | <a id="what">Что мы используем</a></div>
+п»ї<div class="page-name"><a class="disabled" id="who">РљС‚Рѕ РјС‹</a> | <a id="what">Р§С‚Рѕ РјС‹ РёСЃРїРѕР»СЊР·СѓРµРј</a></div>
 <div id="content"></div>

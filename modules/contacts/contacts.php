@@ -1,7 +1,7 @@
-<div class="contact">Cвяжитесь с нами</div>
+п»ї<div class="contact">CРІСЏР¶РёС‚РµСЃСЊ СЃ РЅР°РјРё</div>
 <div id="contbgk">
 	<div id="bgk">
 	</div>
 </div>
-<div class="contact">или оставьте заявку</div>
-<div id="content">или оставьте заявку</div>
+<div class="contact">РёР»Рё РѕСЃС‚Р°РІСЊС‚Рµ Р·Р°СЏРІРєСѓ</div>
+<div id="content">РёР»Рё РѕСЃС‚Р°РІСЊС‚Рµ Р·Р°СЏРІРєСѓ</div>
